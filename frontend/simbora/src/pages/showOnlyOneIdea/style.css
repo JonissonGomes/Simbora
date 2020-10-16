@@ -1,0 +1,43 @@
+.idea-info {
+  max-width: 750px;
+  width: 55%;
+  margin: 40px auto 40px auto;
+}
+
+.idea-info header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.idea-info .complete-idea {
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+  padding-bottom: 8px;
+  animation: bounceIn 1s ease-in;
+}
+
+.idea-info .complete-idea img {
+  margin: 0 auto;
+  width: 100%;
+  height: 333px;
+  border-radius: 16px 16px 0 0;
+}
+
+.idea-info .complete-idea .description-idea {
+  width: 95%;
+  margin: 10px auto 20px auto;
+}
+
+.idea-info .complete-idea .description-idea h1 {
+  color: #492400;
+  margin-bottom: 25px;
+}
+
+.idea-info .complete-idea .description-idea p {
+  margin-bottom: 15px;
+}
+
+.idea-info .complete-idea .description-idea p span {
+  color: #439257;
+  font-weight: 600;
+}

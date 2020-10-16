@@ -1,0 +1,33 @@
+.button {
+  align-self: center;
+  background-color: #77bb88;
+  display: flex;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+}
+
+.button:hover {
+  transition: 0.7s;
+  background-color: white;
+  color: #62b076;
+  font-weight: bolder;
+}
+
+.button span {
+  padding: 8px;
+  background-color: #62b076;
+  border-radius: 6px 0 0 6px;
+}
+
+.button span img {
+  width: 26px;
+}
+
+.button p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  font-size: 20px;
+}

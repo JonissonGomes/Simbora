@@ -1,0 +1,137 @@
+.ideas {
+  height: 100%;
+  max-width: 70%;
+  margin: 0 auto 30px auto;
+  animation: bounceIn 1s ease-in;
+}
+
+.cabecalho {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #492400;
+}
+
+.cabecalho h1 {
+  margin-bottom: 15px;
+}
+
+.cabecalho h3 {
+  margin-bottom: 7px;
+}
+
+.cabecalho h4 {
+  color: #439257;
+}
+
+#categories {
+  color: #492400;
+  border: none;
+}
+
+#categories legend {
+  margin-bottom: 20px;
+}
+
+#categories #categories-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#categories #categories-grid li {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 10px;
+  height: 60px;
+  width: 180px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+#categories #categories-grid li:hover,
+#categories #categories-grid li.selected {
+  transition: 0.5s;
+  background-color: #62b076;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+#categories #categories-grid li img {
+  width: 30px;
+  pointer-events: none;
+  margin-right: 20px;
+}
+
+#categories #categories-grid li span {
+  pointer-events: none;
+  font-size: 13pt;
+}
+
+.numberResults {
+  margin: 50px auto 40px auto;
+  font-size: 8pt;
+}
+
+.numberResults h2 {
+  border-bottom: 1px solid rgb(214, 205, 205);
+  margin-bottom: 10px;
+  width: 190px;
+}
+
+.allIdeas {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.allIdeas article {
+  animation: bounceIn 1s ease-in;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.allIdeas article:hover {
+  border-top: 2px solid rgba(95, 84, 84, 0.336);
+  border-bottom: 2px solid rgba(95, 84, 84, 0.336);
+}
+
+.allIdeas .img {
+  width: 230px;
+  height: 153px;
+  margin-right: 40px;
+  border-radius: 16px;
+}
+
+.allIdeas .description-datas h1 {
+  font-size: 17pt;
+  color: #492400;
+  margin-bottom: 15px;
+}
+
+.allIdeas .description-datas p {
+  font-size: 11pt;
+  margin-bottom: 12px;
+}
+
+.allIdeas .description-datas div {
+  max-width: 30%;
+  height: 20px;
+}
+
+.allIdeas .description-datas a {
+  height: 40px;
+  width: 160px;
+}
+
+.allIdeas .description-datas a span {
+  width: 50px;
+}
+
+.allIdeas .description-datas a p {
+  margin: 0;
+}

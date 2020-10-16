@@ -1,0 +1,29 @@
+.pai {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 20vh 80vh;
+}
+
+.sucess {
+  width: 50%;
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: bounceIn 1s ease-in;
+}
+
+.sucess img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.sucess h1 {
+  margin-bottom: 30px;
+}
+
+.sucess a {
+  height: 42px;
+}

@@ -1,0 +1,121 @@
+.modal {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: bounceIn 1s;
+  color: #492400;
+}
+a {
+  color: #492400;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.Container-botoes {
+  padding: 15px 80px 15px 60px;
+  border-radius: 8px;
+}
+
+.Container-botoes h3 {
+  font-size: 20pt;
+  text-align: center;
+}
+
+.Container-botoes section {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 150px;
+}
+
+.Container-botoes section a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.Container-botoes section a:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #42ca96;
+  border: none;
+  border-radius: 6px 6px 28px 28px;
+  transition: 400ms;
+  font-weight: 900;
+}
+
+.Container-botoes section a img {
+  margin-bottom: 30px;
+}
+
+.Container-botoes section a h4 {
+  margin-bottom: 10px;
+}
+
+.ChoseCity {
+  animation: bounceIn 1s;
+}
+
+.ChoseCity .header {
+  margin-bottom: 30px;
+  font-size: 18pt;
+}
+
+.ChoseCity .forms {
+  font-size: 17pt;
+}
+
+.ChoseCity .forms div {
+  margin-top: 10px;
+  display: flex;
+}
+
+.ChoseCity .forms div select {
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  background-color: rgb(243, 240, 240);
+  color: #492400;
+  font-weight: 600;
+  font-size: 12pt;
+  outline: none;
+}
+
+.ChoseCity .forms div a {
+  border: none;
+  padding: 7px;
+  border-radius: 0 8px 8px 0;
+  background-color: #62b076;
+  cursor: pointer;
+  outline: none;
+}
+
+.ChoseCity .forms div a:hover {
+  transition: 0.4s;
+  background-color: white;
+  border: 2px solid #62b076;
+}
+
+.back {
+  margin-bottom: 30px;
+  cursor: pointer;
+}

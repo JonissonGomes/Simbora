@@ -1,0 +1,71 @@
+.forms-create-idea {
+  height: 80vh;
+  background-position: 50px -30px;
+  background-size: 1800px;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forms-create-idea .container-forms {
+  max-width: 750px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 14px;
+  border-radius: 8px;
+  animation: bounceIn 1s;
+}
+
+.forms-create-idea .container-forms h3 {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 21pt;
+  color: #492400;
+  font-weight: 900;
+}
+
+.forms-create-idea .container-forms section {
+  max-width: 90%;
+  margin: 30px auto 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.forms-create-idea .container-forms section a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.forms-create-idea .container-forms section a:hover {
+  color: white;
+  background-color: #42ca96;
+  border: none;
+  border-radius: 6px 6px 28px 28px;
+  transition: 400ms;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.forms-create-idea .container-forms section a h4 {
+  text-align: center;
+}
+
+.forms-create-idea .container-forms section a img {
+  margin-bottom: 20px;
+}
+
+/* Formulário */
+
+.forms-datas {
+  width: 56%;
+  height: 85%;
+}
+
+.forms-datas img {
+  cursor: pointer;
+}

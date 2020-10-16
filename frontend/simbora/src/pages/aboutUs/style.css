@@ -1,0 +1,171 @@
+.main {
+  max-width: 80%;
+  margin: 0 auto 40px auto;
+  scroll-behavior: smooth;
+}
+
+.about-us-resume {
+  max-width: 70%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  animation: bounceIn 1s ease-in;
+}
+
+.about-us-resume h1 {
+  text-align: center;
+  color: #492400;
+  margin-bottom: 25px;
+}
+
+.about-us-resume p {
+  margin-bottom: 15px;
+  line-height: 26px;
+}
+
+.about-us-resume span {
+  color: #439257;
+}
+
+.about-us-resume section {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+  cursor: pointer;
+}
+
+.about-us-resume section img {
+  width: 70px;
+}
+
+.about-us-tecnologies {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: slidein 1s ease-in;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+.about-us-tecnologies h1 {
+  text-align: center;
+  color: #492400;
+  margin-bottom: 40px;
+}
+
+.about-us-tecnologies section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about-us-tecnologies section div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us-tecnologies section img {
+  width: 170px;
+}
+
+.about-us-tecnologies article {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  cursor: pointer;
+}
+
+.about-us-tecnologies article img {
+  width: 70px;
+}
+
+@keyframes slideinLast {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+
+.about-us-team {
+  animation: slideinLast 1s ease-in;
+  height: 70vh;
+}
+
+.about-us-team .team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 80%;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.about-us-team h1 {
+  text-align: center;
+  color: #492400;
+  margin-bottom: 60px;
+}
+
+.about-us-team article {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.about-us-team article img {
+  width: 70px;
+}
+
+.about-us-team section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us-team section img {
+  width: 150px;
+  height: 155px;
+  border-radius: 14px;
+}
+.about-us-team section .conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us-team section .conteudo h3 {
+  color: #492400;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.about-us-team section .conteudo img {
+  width: 15px;
+  margin-right: 12px;
+}
+
+.about-us-team section .conteudo a {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
